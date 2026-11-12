@@ -1,0 +1,86 @@
+[
+  {
+    "viewport": "1440x900",
+    "fileName": "viewport-1440x900.jpg",
+    "metrics": {
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "h1Visible": "1",
+      "menuVisible": false
+    }
+  },
+  {
+    "viewport": "1200x800",
+    "fileName": "viewport-1200x800.jpg",
+    "metrics": {
+      "innerWidth": 1200,
+      "innerHeight": 800,
+      "clientWidth": 1200,
+      "scrollWidth": 1200,
+      "h1Visible": "1",
+      "menuVisible": false
+    }
+  },
+  {
+    "viewport": "1024x768",
+    "fileName": "viewport-1024x768.jpg",
+    "metrics": {
+      "innerWidth": 1024,
+      "innerHeight": 768,
+      "clientWidth": 1024,
+      "scrollWidth": 1024,
+      "h1Visible": "1",
+      "menuVisible": false
+    }
+  },
+  {
+    "viewport": "768x1024",
+    "fileName": "viewport-768x1024.jpg",
+    "metrics": {
+      "innerWidth": 768,
+      "innerHeight": 1024,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "h1Visible": "1",
+      "menuVisible": true
+    }
+  },
+  {
+    "viewport": "430x932",
+    "fileName": "mobile-430x932.jpg",
+    "metrics": {
+      "innerWidth": 430,
+      "innerHeight": 932,
+      "clientWidth": 430,
+      "scrollWidth": 430,
+      "h1Visible": "1",
+      "menuVisible": true
+    }
+  },
+  {
+    "viewport": "390x844",
+    "fileName": "mobile-390x844.jpg",
+    "metrics": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "h1Visible": "1",
+      "menuVisible": true
+    }
+  },
+  {
+    "viewport": "375x812",
+    "fileName": "mobile-375x812.jpg",
+    "metrics": {
+      "innerWidth": 375,
+      "innerHeight": 812,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "h1Visible": "1",
+      "menuVisible": true
+    }
+  }
+]

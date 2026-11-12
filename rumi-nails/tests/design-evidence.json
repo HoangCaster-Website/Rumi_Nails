@@ -1,0 +1,83 @@
+{
+  "contract": "Spanish-language single-page website for Rumi Nails in Águilas, Murcia. Users must be able to scan services and prices, understand that no appointment is needed, view nail work, and quickly call, message, or navigate to the salon. The hierarchy places the walk-in advantage and brand first, followed by a three-point signature strip, services, prices, gallery, and location. The upgraded visual direction is lively jewel-candy boutique luxury: raspberry, orchid, coral, champagne and mint accents support the existing editorial typography, arched imagery and memorable R monogram without weakening readability. Service categories use compact nail-color swatch cards with purposeful color coding, glassy icons, number labels and gentle staggering instead of tall arch cards with unused space. The gallery uses a balanced ten-column editorial mosaic on desktop and a dense two-column mosaic on mobile; the old repeated brand card is replaced by an original text-free nail-art palette photograph. Color is distributed by purpose across pricing, gallery, contact and footer; the HoangCaster creator credit is intentionally highlighted as a compact champagne-edged gradient badge. Subtle motion adds energy while respecting reduced-motion preferences. Constraints: static HTML5/CSS3/vanilla JavaScript, no booking flow, responsive from 375 px to 1440 px, accessible controls, and reduced-motion support.",
+  "targetViewports": [
+    "1440x900",
+    "1200x800",
+    "1024x768",
+    "768x1024",
+    "430x932",
+    "390x844",
+    "375x812"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Chrome Lighthouse mobile navigation audit scored 100 for accessibility. The accessibility tree exposes one H1, semantic regions, named navigation landmarks, descriptive image alternatives, labeled gallery buttons, a keyboard-closeable lightbox, visible focus styles, and a skip link."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Exact CDP device-metric captures at all seven target viewports report document scrollWidth equal to clientWidth. Hero copy, CTA controls, gallery, price cards, menu, contact actions, and mobile contact bar were inspected at desktop and narrow layouts."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "The static page has no data-fetching state; lazy images reserve stable dimensions and retain descriptive alternative text."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "All salon content, prices, hours, and contact details are authored directly in the page and cannot be empty at runtime."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "The site has no form submission or application workflow; external WhatsApp, telephone, email, directions, and map links use standard browser navigation."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "No partial remote-data state exists; core information and images are local, while the optional map is isolated from the contact details and directions link."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Primary content renders immediately, the mobile menu opens and closes including with Escape, gallery lightbox opens with a matching image and closes with Escape, and all contact actions expose valid destination schemes."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "The website requests no browser permissions and stores no user data."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "screenshots/viewport-1440x900.jpg",
+      "observation": "Wide desktop hero balances the full navigation, jewel-tone brand treatment, walk-in badge, gradient CTAs, and saturated right-aligned manicure photograph without overlap."
+    },
+    {
+      "viewport": "1200x800",
+      "artifact": "screenshots/viewport-1200x800.jpg",
+      "observation": "Desktop navigation and hero remain contained at the narrower desktop breakpoint; document width equals viewport width."
+    },
+    {
+      "viewport": "1024x768",
+      "artifact": "screenshots/viewport-1024x768.jpg",
+      "observation": "Tablet landscape preserves full navigation, readable hero copy, complete CTA row, and clean image crop."
+    },
+    {
+      "viewport": "768x1024",
+      "artifact": "screenshots/viewport-768x1024.jpg",
+      "observation": "Tablet portrait switches to the compact menu while keeping the hero hierarchy and contact controls stable."
+    },
+    {
+      "viewport": "430x932",
+      "artifact": "screenshots/mobile-430x932.jpg",
+      "observation": "Large mobile layout retains the intentional stacked hero title, compact menu, floating WhatsApp action, and three-part contact bar."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "screenshots/mobile-390x844.jpg",
+      "observation": "Mobile hero uses a balanced stacked composition with the richer raspberry-orchid accents; all text, badges, buttons, and fixed contact controls remain inside the viewport."
+    },
+    {
+      "viewport": "375x812",
+      "artifact": "screenshots/mobile-375x812.jpg",
+      "observation": "Small mobile breakpoint wraps the brand title intentionally and keeps both primary actions, opening hours, and contact bar fully visible with no horizontal scrolling."
+    }
+  ]
+}
